@@ -7,6 +7,7 @@
     --calc-body: radial-gradient(circle, var(--gray-shadow) 0%, var(--gray-shadow) 5%, rgba(28, 29, 29, 1) 100%);
     --gray-shadow: #625b5f;
     --text-color: #172623;
+    --equal-color: rgb(145, 129, 138);
 }
 
 * {
@@ -73,4 +74,8 @@ html {
     height: 82px;
     font-size: 3rem;
     flex-grow: 1;
+  }
+
+  #equal-sign {
+    background-color: var(--equal-color);
   }
