@@ -70,6 +70,7 @@ html {
   }
 
   input {
+    color: white;
     border: none;
     border-radius: 100%;
     width: 90px;
