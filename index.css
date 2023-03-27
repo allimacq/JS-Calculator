@@ -96,3 +96,15 @@ html {
   input.operator {
     background-color: var(--operator-color);
   }
+
+  #calc-name {
+    color: rgba(116 170 161 / 33%);
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: 800;
+    position: absolute;
+    top: 148px;
+    margin: 0;
+    text-shadow: 0 0 black;
+
+  }
