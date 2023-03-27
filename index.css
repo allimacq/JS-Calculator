@@ -25,6 +25,13 @@ html {
     box-shadow: var(--gray-shadow) 3px 3px 5px;
     position: relative;
   }
+
+  .calculator-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
   #keypad {
     display: flex;
