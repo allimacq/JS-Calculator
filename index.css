@@ -37,6 +37,13 @@ html {
   p.screen {
     background-color: var(--screen-color);
     color: var(--text-color);
+    font: 3em monospace;
+    text-align: end;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 3dvh;
+    padding-block: 50px;
+    position: sticky;
    }
   
   #keypad {
