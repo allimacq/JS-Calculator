@@ -13,4 +13,13 @@ html {
     background: radial-gradient(circle, rgba(145, 129, 138, 0.8813900560224089) 0%, rgba(145, 129, 138, 1) 100%);
   }
 
+  .calculator-body {
+    background: var(--calc-background);
+    height: 620px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: #625b5f 3px 3px 5px;
+
+  }
   
