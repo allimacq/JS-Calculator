@@ -68,4 +68,9 @@ html {
 
   input {
     border: none;
+    border-radius: 100%;
+    width: 90px;
+    height: 82px;
+    font-size: 3rem;
+    flex-grow: 1;
   }
