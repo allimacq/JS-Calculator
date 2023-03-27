@@ -18,7 +18,7 @@ html {
 
   .calculator-body {
     background: var(--calc-body);
-    height: 620px;
+    height: 560px;
     max-width: 500px;
     margin: auto;
     border-radius: 20px;
