@@ -48,3 +48,9 @@ html {
     border-radius: 10px;
     position: sticky;
   }
+
+  .flex-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
