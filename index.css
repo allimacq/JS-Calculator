@@ -6,6 +6,7 @@
     --screen-color: rgba(255, 248, 248, 0.7);
     --calc-body: radial-gradient(circle, var(--gray-shadow) 0%, var(--gray-shadow) 5%, rgba(28, 29, 29, 1) 100%);
     --gray-shadow: #625b5f;
+    --text-color: #172623;
 }
 
 * {
@@ -35,6 +36,7 @@ html {
 
   p.screen {
     background-color: var(--screen-color);
+    color: var(--text-color);
    }
   
   #keypad {
