@@ -26,7 +26,7 @@ html {
     position: relative;
   }
   
-  #calculator {
+  #keypad {
     display: flex;
     flex-direction: column;
     align-items: center;
