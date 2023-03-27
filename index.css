@@ -62,17 +62,6 @@ html {
     position: absolute;
   }
 
-  .screen {
-    color: #172623;
-    font: 3em monospace;
-    background-color: var(--screen-color);
-    text-align: end;
-    width: calc(100% - 100px);
-    margin-top: 3dvh;
-    padding: 50px;
-    border-radius: 10px;
-    position: sticky;
-  }
 
   .flex-row {
     display: flex;
