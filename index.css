@@ -32,6 +32,10 @@ html {
     justify-content: center;
     align-items: center;
   }
+
+  p.screen {
+    background-color: var(--screen-color);
+   }
   
   #keypad {
     display: flex;
