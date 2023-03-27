@@ -8,6 +8,7 @@
     --gray-shadow: #625b5f;
     --text-color: #172623;
     --equal-color: rgb(145, 129, 138);
+    --clear-color: #74AAA1;
 }
 
 * {
@@ -78,4 +79,10 @@ html {
 
   #equal-sign {
     background-color: var(--equal-color);
+  }
+
+  #clear {
+    color: var(--clear-color);
+    font-size: 1.5rem;
+    text-align: center;
   }
