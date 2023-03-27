@@ -9,6 +9,7 @@
     --text-color: #172623;
     --equal-color: rgb(145, 129, 138);
     --clear-color: #74AAA1;
+    --operator-color: #A6C9C5;
 }
 
 * {
@@ -85,4 +86,12 @@ html {
     color: var(--clear-color);
     font-size: 1.5rem;
     text-align: center;
+  }
+
+  input.number {
+    background-color: var(--number-color);
+  }
+
+  input.operator {
+    background-color: var(--operator-color);
   }
