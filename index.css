@@ -2,7 +2,7 @@
     --primary-purple: rgb(145, 129, 138);
     --secondary-purple: rgba(145, 129, 138, 1);
     --background-color: radial-gradient(circle, var(--primary-color) 0%, var(--secondary-color) 100%);
-    --secondary-color: rgb(116, 170, 161);
+    --number-color: rgb(116, 170, 161);
     --screen-color: rgba(255, 248, 248, 0.7);
     --calc-background: radial-gradient(circle, rgba(1, 0, 14, 1) 0%, rgba(10, 10, 10, 1) 21%, rgba(28, 29, 29, 1) 100%);
 }
