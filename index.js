@@ -40,3 +40,20 @@ const solution = (userStr) => {
     }
     return a;
 }
+
+calcBtns.forEach(button => {
+    button.addEventListener(("click"), event => {
+        screen.textContent += event.target.value;
+         userStr = screen.textContent;
+    })
+})
+
+clear.addEventListener("click", event => {
+    screen.textContent = "";
+    userStr = "";
+})
+
+equalSign.addEventListener("click", event => {
+    event.preventDefault();
+    screen.textContent = solution(userStr);
+})
